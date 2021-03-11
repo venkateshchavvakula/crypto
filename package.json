@@ -1,0 +1,25 @@
+{
+  "name": "crypto",
+  "version": "1.0.0",
+  "description": "Cryptography is the process of converting plain text into unreadable text and vice-versa. This way, only the sender and receiver of the information understand its content.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkateshchavvakula/crypto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkateshchavvakula/crypto/issues"
+  },
+  "homepage": "https://github.com/venkateshchavvakula/crypto#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.6"
+  }
+}

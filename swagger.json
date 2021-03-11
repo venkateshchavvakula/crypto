@@ -1,0 +1,46 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "use of crypto js module in node js",
+        "version": "1.0",
+        "title": "nodejs/crypto"
+    },
+    "host": "localhost:9000",
+    "basePath": "/",
+    "tags": [
+        {
+            "name": "crypto",
+            "description": "use of crypto js module in node js"
+        }
+    ],
+    "schemas": [
+        "http",
+        "https"
+    ],
+    "paths": {
+        "/get-ciphers": {
+            "get": {
+                "tags": [
+                    "crypto"
+                ],
+                "summary": "Get List of Ciphers avaliable",
+                "description": "",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                }
+            }
+        }
+    }
+}
